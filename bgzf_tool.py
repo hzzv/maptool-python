@@ -1,6 +1,8 @@
 # -*- coding: utf-8 -*-
 # Copyright 2013 by Petra Kubincova
 
+import sys
+
 try:
     import Bio.bgzf as bgzf
 except ImportError as e:
